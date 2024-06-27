@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Blog = require('../models/blog');
 
-// Route to get a list of blogs with pagination
+// Routes to get a list of blogs with pagination
 router.get('/', async (req, res) => {
   try {
     

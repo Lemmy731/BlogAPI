@@ -1,4 +1,5 @@
 const moogoose = require('mongoose');
+//code model
 
 const Schema = moogoose.Schema;
 
