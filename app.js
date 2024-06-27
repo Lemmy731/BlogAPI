@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-// Route for user registration
+// this is Route for user registration
 app.post('/register', userRegister);
 //route for sign in
 app.post('/signin', signIn);
